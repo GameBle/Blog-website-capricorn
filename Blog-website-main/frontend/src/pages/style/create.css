@@ -1,0 +1,91 @@
+.create-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:12vh ;
+    height:fit-content;
+    min-height: 100vh;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    width:50vw;
+    margin-bottom: 4vh;
+}
+.title input{
+    width:40vw;
+    height:6vh;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    font-size:2vmin;
+    padding-left: 1vw;
+}
+.caption{
+    display: flex;
+    width:50vw;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin-bottom: 4vh;
+}
+.imgSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width:8vw;
+    height:5vh;
+    background-color: rgb(0, 127, 255) !important;
+    margin-right: 2vw;  
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+.btn1{
+    transition: all 0.5s;
+    font-weight: 600;
+}
+.btn1:hover{
+    background-color: rgb(0, 89, 178) !important;
+}
+.caption-input{
+    width: 29vw;    
+    outline: none;
+    height:5vh;
+    padding-left:1vw;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    margin-top: 2vh;
+
+}   
+.area{
+    display: flex;
+    justify-content: flex-start;
+    width:50vw;
+    height: 40vh;
+}
+.tox-editor-container{
+    width:70vw;
+}
+.input-content{
+    width:40vw;
+}
+.bttn{
+    margin-top: 2vh;
+    width:31vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.bttn button{
+    height:5vh;
+    width: 8vw;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(0, 127, 255) !important;
+    color:#ffffff;
+    transition: all 200ms;
+    font-size: 1.5vmin;
+    font-weight: 800;
+}
+.btn11:hover{
+    background-color: rgb(0, 89, 178) !important;
+}
